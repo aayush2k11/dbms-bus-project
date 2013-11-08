@@ -83,7 +83,7 @@ class Customer(models.Model):
 	#date of birth
 	dob = models.DateField()
 	#gender
-	#gender = models.
+	gender = models.CharField(max_length=6)
 
 class Transaction(models.Model):
 	#identified using transaction.id
